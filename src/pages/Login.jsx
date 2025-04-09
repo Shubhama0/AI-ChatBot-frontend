@@ -41,7 +41,7 @@ const Login = () => {
           className="bg-amber-500 text-white  py-2 px-4 rounded hover:bg-blue-700"
           disabled={btnLoading}
         >
-          {btnLoading ? <LoadingSpinner /> : "Login"}
+          {btnLoading ? <LoadingSpinner /> : "Submit"}
         </button>
       </form>
     </div>
